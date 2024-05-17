@@ -126,8 +126,8 @@ def get_loader_in(batch_size, data_dir, json_list, fold, roi):
 
 
 def get_loader():
-    data_dir = "/pct_ner/private/users/z004k3ns/bratsnew/brats2021"
-    json_list = "/pct_ner/private/users/z004k3ns/bratsnew/brats2021/brats21_folds.json"
+    data_dir = ""
+    json_list = ""
     roi = (128, 128, 128)
     batch_size = 4  #2
     fold = 1
